@@ -1,0 +1,144 @@
+function showWhitebeard() {
+  const elementsToHide = [
+    "h",
+    "a1",
+    "l",
+    "p",
+    "t",
+    "g",
+    "j",
+    "o",
+    "s",
+    "f",
+    "k",
+    "n",
+    "r",
+    "u",
+    "w",
+    "v",
+    "y",
+    "v11",
+    "v1",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "e1",
+    "f1",
+    "v7",
+    "v10",
+    "i1",
+    "g1",
+    "z",
+    "k1",
+    "v13",
+    "k",
+    "m1",
+    "n1",
+    "o1",
+    "v8",
+    "q1",
+    "r1",
+    "t1",
+    "u1"
+  ];
+  const elementsToShow = ["e", "i", "m", "q", "b1"];
+
+  elementsToHide.forEach((id) => {
+    document.getElementById(id).classList.add("none");
+  });
+
+  elementsToShow.forEach((id) => {
+    document.getElementById(id).classList.remove("none");
+  });
+}
+
+function dAce() {
+  m.classList.remove("none");
+  u.classList.remove("none");
+  v.classList.remove("none");
+  w.classList.remove("none");
+  a1.classList.remove("none");
+  c1.classList.remove("none");
+  v6.classList.remove("none");
+  p1.classList.remove("none");
+  s2.play();
+  b1.classList.add("none");
+  a.classList.add("none");
+  i.classList.add("none");
+  e.classList.add("none");
+  q.classList.add("none");
+  h.classList.add("none");
+  l.classList.add("none");
+  p.classList.add("none");
+  t.classList.add("none");
+  d1.classList.add("none");
+  g.classList.add("none");
+  j.classList.add("none");
+  o.classList.add("none");
+  s.classList.add("none");
+  f.classList.add("none");
+  k.classList.add("none");
+  n.classList.add("none");
+  r.classList.add("none");
+  y.classList.add("none");
+  v1.classList.add("none");
+  v3.classList.add("none");
+  v4.classList.add("none");
+  v5.classList.add("none");
+  v11.classList.add("none");
+  e1.classList.add("none");
+  f1.classList.add("none");
+  v7.classList.add("none");
+  v10.classList.add("none");
+  i1.classList.add("none");
+  g1.classList.add("none");
+  z.classList.add("none");
+  m1.classList.add("none");
+  n1.classList.add("none");
+  o1.classList.add("none");
+}
+function imWhitebeard() {
+  i1.classList.remove("none");
+  g1.classList.remove("none");
+  z.classList.remove("none");
+  v13.classList.remove("none");
+  v1.classList.add("none");
+  v3.classList.add("none");
+  v4.classList.add("none");
+  v5.classList.add("none");
+  v6.classList.add("none");
+  h.classList.add("none");
+  l.classList.add("none");
+  p.classList.add("none");
+  t.classList.add("none");
+  f.classList.add("none");
+  k.classList.add("none");
+  n.classList.add("none");
+  r.classList.add("none");
+  g.classList.add("none");
+  j.classList.add("none");
+  o.classList.add("none");
+  s.classList.add("none");
+  i.classList.add("none");
+  m.classList.add("none");
+  q.classList.add("none");
+  u.classList.add("none");
+  v.classList.add("none");
+  w.classList.add("none");
+  y.classList.add("none");
+  m1.classList.add("none");
+  n1.classList.add("none");
+  o1.classList.add("none");
+  v11.classList.add("none");
+  e1.classList.add("none");
+  f1.classList.add("none");
+  v7.classList.add("none");
+  v10.classList.add("none");
+  k1.classList.add("none");
+  m1.classList.add("none");
+  n1.classList.add("none");
+  o1.classList.add("none");
+  v8.classList.add("none");
+  s1.play();
+}
